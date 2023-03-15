@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.edge {
+  margin-top: 10px;
+}
+.or hr {
+  width: 20vh;
+}
+.text {
+  color: #0079d3;
+}
+.form {
+  width: 50vh;
+  padding: 20px;
+  margin-top: 5%;
+}
+.font {
+  font-size: larger;
+  color: #3c4043;
+}
+.button {
+  width: 50vh;
+  height: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10vh;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  background-color: #fff;
+}
+.button2 {
+  width: 50vh;
+  height: 40px;
+  font-weight: bolder;
+  margin-top: 10px;
+  border-radius: 1vh;
+  border: 1px solid #dadce0;
+  color: #fff;
+  background-color: #0079d3;
+}
+.c_Button {
+  text-align: center;
+  margin-top: 40px;
+}
+.box {
+  border-style: none;
+  width: 49vh;
+  height: 4vh;
+  background-color: #fcfcfb;
+}
+
+.inp {
+  margin-top: 10px;
+  border: 1px solid #dadce0;
+  border-radius: 1vh;
+}
+.para {
+  margin-top: 10px;
+  font-size: smaller;
+  font-weight: lighter;
+}
+.para2 {
+  margin-top: 28px;
+  font-size: smaller;
+}
+@media only screen and (min-width: 328px) {
+  .heroLeft {
+    width: 10%;
+    background-image: url(/Task1/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 430px;
+  }
+  .heroRight {
+    height: 99vh;
+    width: 90%;
+  }
+}
